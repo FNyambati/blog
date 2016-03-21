@@ -1,2 +1,2 @@
-# musicPlayer
-Online Music Player
+# Blog
+MEAN stack blog project
