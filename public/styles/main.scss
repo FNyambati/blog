@@ -1,4 +1,7 @@
+@import "variables";
 body {
-  background-color: red;
-  color: gold;
+  background-color: $bgColor;
+  font-family: $myFont;
+  box-sizing: border-box;
+  margin: 0 auto;
 }

@@ -1,3 +1,17 @@
 body {
-  background-color: red;
-  color: gold; }
+  background-color: #e8e8e8;
+  font-family: "Cabin", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0 auto; }
+
+nav {
+  text-align: center;
+  margin-top: 2%; }
+  nav a {
+    text-align: center;
+    text-decoration: none;
+    margin: 5%;
+    padding-top: 10%;
+    color: black;
+    font-size: 1.9em;
+    font-family: "Lobster", Georgia, Times, serif; }

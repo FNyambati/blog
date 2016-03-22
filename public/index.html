@@ -1,12 +1,32 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>FredTunes</title>
-    <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
-  </head>
-  <body>
-    <h1>FRED BLOG</h1>
+<html ng-app='myApp'>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>FredBlog</title>
+                          <!-- SASS COMPILED CSS FILE -->
+  <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
+                          <!-- GOOGLE FONTS -->
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+  <header>
+    <nav-dir></nav-dir>
+  </header>
+
+  <ui-view></ui-view>
+
+
+  <!-- CDN'S -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
+
+
+  <!-- SCRIPT TAGS -->
+  <script src="js/app.js"></script>
+
+</body>
 </html>

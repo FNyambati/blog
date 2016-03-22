@@ -1,0 +1,15 @@
+@import 'variables';
+
+nav {
+  text-align: center;
+  margin-top: 2%;
+  a {
+    text-align: center;
+    text-decoration: none;
+    margin: 5%;
+    padding-top: 10%;
+    color: black;
+    font-size: $navFontSize;
+    font-family: $navFont;
+  }
+}
