@@ -1,4 +1,79 @@
-body {
+.homeContainer {
+  height: 100%;
+  width: 100%; }
+  .homeContainer .banner {
+    height: 70%;
+    width: 100%;
+    background-image: url(./img/background.jpg);
+    background-size: auto; }
+    .homeContainer .banner h1 {
+      text-align: center;
+      font-size: 3.5em;
+      line-height: 400px;
+      color: white; }
+  .homeContainer .share {
+    text-align: center;
+    font-size: 1.7em; }
+  .homeContainer .about {
+    height: 80%;
+    display: flex;
+    width: 100%;
+    margin: 0 auto; }
+    .homeContainer .about .personal {
+      height: 100%;
+      background-color: green;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .homeContainer .about .personal h2 {
+        text-align: center;
+        font-size: 2em; }
+      .homeContainer .about .personal i {
+        font-size: 5.5em;
+        justify-content: center;
+        margin-top: 15px; }
+    .homeContainer .about .social {
+      height: 100%;
+      flex: 1;
+      background-color: blue;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .homeContainer .about .social h2 {
+        text-align: center;
+        font-size: 2em; }
+      .homeContainer .about .social i {
+        font-size: 5.5em;
+        justify-content: center;
+        margin-top: 15px; }
+    .homeContainer .about .local {
+      height: 100%;
+      flex: 1;
+      background-color: red;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .homeContainer .about .local h2 {
+        text-align: center;
+        font-size: 2em; }
+      .homeContainer .about .local i {
+        font-size: 5.5em;
+        justify-content: center;
+        margin-top: 15px; }
+  .homeContainer .ready {
+    text-align: center; }
+    .homeContainer .ready h2 {
+      font-size: 1.7em; }
+      .homeContainer .ready h2 a {
+        text-decoration: none;
+        color: #664f8c; }
+      .homeContainer .ready h2 a:hover {
+        color: #171570; }
+
+body, html {
+  width: 100%;
+  height: 100%;
   background-color: #e8e8e8;
   font-family: "Cabin", Helvetica, Arial, sans-serif;
   box-sizing: border-box;
