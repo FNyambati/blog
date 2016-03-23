@@ -17,6 +17,7 @@
   .share {
     text-align: center;
     font-size: 1.7em;
+    padding-bottom: 10px;
   }
   .about {
     height: 80%;
@@ -25,7 +26,6 @@
     margin: 0 auto;
     .personal {
       height: 100%;
-      background-color: green;
       flex: 1;
       display: flex;
       flex-direction: column;
@@ -38,12 +38,16 @@
         font-size: 5.5em;
         justify-content: center;
         margin-top: 15px;
+      }
+      p {
+        padding: 10px;
+        padding-left: 30px;
+        font-size: 1.3em;
       }
     }
     .social {
       height: 100%;
       flex: 1;
-      background-color: blue;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -55,12 +59,16 @@
         font-size: 5.5em;
         justify-content: center;
         margin-top: 15px;
+      }
+      p {
+        padding: 10px;
+        font-size: 1.3em;
+
       }
     }
     .local {
       height: 100%;
       flex: 1;
-      background-color: red;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -72,6 +80,10 @@
         font-size: 5.5em;
         justify-content: center;
         margin-top: 15px;
+      }
+      p {
+        padding: 10px;
+        font-size: 1.3em;
       }
     }
   }

@@ -14,7 +14,8 @@ angular.module('myApp', ['ui.router'])
     })
     .state('login', {
        url: '/login',
-       templateUrl: "./JS/views/login.html"
+       templateUrl: "./JS/views/login.html",
+       controller: 'loginCtrl'
      })
      .state('contact', {
         url: '/contact',
